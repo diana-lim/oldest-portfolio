@@ -33,6 +33,7 @@ header a:hover{
 
 header nav {
   padding-top: 30px;
+  padding-left: 45px;
 }
 
 .sect-one {
@@ -45,7 +46,7 @@ header nav {
 h1 {
   color: white;
   font-size: 45px;
-  padding-top: 150px;
+  padding-top: 140px;
   padding-left: 235px;
 }
 
@@ -58,6 +59,10 @@ h2 {
   text-align: center;
 }
 
+h2:hover {
+  color: gray;
+}
+
 h4 {
   font-size: 40px;
 }
@@ -65,9 +70,14 @@ h4 {
 .sect-two {
   background-color: white;
   color: black;
-  height: 500px;
+  height: 650px;
   text-align: center;
   padding-top: 20px;
+}
+
+p {
+  padding-left: 300px;
+  padding-right: 300px;
 }
 
 .projects {
