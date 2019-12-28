@@ -9,7 +9,7 @@ body {
 header {
   color: white;
   background-color: black;
-  padding-top:20px;
+  padding-top: 10px;
   min-height: 70px;
 }
 
@@ -67,17 +67,31 @@ h4 {
   font-size: 40px;
 }
 
+h5 {
+  font-size: 18px;
+}
+
 .sect-two {
   background-color: white;
   color: black;
-  height: 650px;
+  height: 2250px;
   text-align: center;
   padding-top: 20px;
 }
 
+
 p {
   padding-left: 300px;
   padding-right: 300px;
+}
+.p-describe {
+  padding-left: 450px;
+  padding-right: 450px;
+  padding-bottom: 25px;
+}
+
+.blog {
+  border: 2px solid black;
 }
 
 .projects {
