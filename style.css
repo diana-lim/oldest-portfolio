@@ -71,10 +71,15 @@ h5 {
   font-size: 18px;
 }
 
+h6 {
+  font-size: 30px;
+  text-align: left;
+}
+
 .sect-two {
   background-color: white;
   color: black;
-  height: 2250px;
+  height: 2050px;
   text-align: center;
   padding-top: 20px;
 }
