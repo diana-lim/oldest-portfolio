@@ -40,7 +40,7 @@ header nav {
 .sect-one {
   background-image: url(https://i.imgur.com/F7rrMOW.jpg);
   height: 100vh;
-  background-size: 80%;
+  background-size: 75%;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -86,19 +86,21 @@ h6 {
 .sect-two {
   background-color: white;
   color: black;
-  height: 2050px;
   text-align: center;
   padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 
 p {
-  padding-left: 300px;
-  padding-right: 300px;
+  margin-left: 200px;
+  width: 70%;
+  text-align: center;
 }
 .p-describe {
-  padding-left: 450px;
-  padding-right: 450px;
+  margin-left: 450px;
+  width: 30%;
+  text-align: center;
   padding-bottom: 25px;
 }
 
@@ -123,3 +125,50 @@ footer {
   text-align: center;
   padding-bottom: 15px;
 }
+
+@media (max-width: 576px) { 
+  header nav {
+    padding-left: 0;
+    padding-top: 0;
+  }
+  header li {
+    float: none;
+    display: block;
+  }
+  #list-one {
+    margin: 0;
+    padding: 0;
+  }
+  .sect-one {
+    height: 80vh;
+    background-size: 100%;
+    background-position: top center;
+  }
+  #hero {
+    position: relative;
+    top: 0;
+  }
+  h1 {
+  padding-top: 340px;
+  padding-left: initial;
+  text-align: center;
+  }
+  h2 {
+    width: auto;
+    text-align: center;
+  }
+  
+  p {
+  margin-left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+}
+.p-describe {
+  margin-left: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 5px;
+}
+}
+
